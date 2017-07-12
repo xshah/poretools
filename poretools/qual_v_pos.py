@@ -2,6 +2,7 @@ import Fast5File
 from collections import defaultdict
 import pandas
 import matplotlib.pyplot as plt
+matplotlib.use('Agg')
 
 #logging
 import logging
