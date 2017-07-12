@@ -4,6 +4,7 @@ import sys
 import pandas as pd
 import seaborn as sns
 from matplotlib import pyplot as plt
+matplotlib.use('Agg')
 
 import logging
 logger = logging.getLogger('poretools')
