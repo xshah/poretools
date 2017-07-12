@@ -5,6 +5,7 @@ import seaborn as sns
 from matplotlib import rcParams
 rcParams.update({'figure.autolayout': True})
 from matplotlib import pyplot as plt
+matplotlib.use('Agg')
 
 #logging
 import logging
